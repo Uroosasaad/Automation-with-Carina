@@ -1,0 +1,610 @@
+[2023-07-22 08:09:33] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-22 08:09:33] [1] [INFO] TEST [automation-course-demo - testGetYoutubeVideoById] STARTED at [15:09:33 2023-07-22]
+[2023-07-22 08:09:35] [1] [INFO] Request method:	GET
+Request URI:	https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=Java%20Beginners&type=video&key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sat, 22 Jul 2023 20:09:33 GMT
+Server: scaffolding on HTTPServer2
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "tQ5taC3zD8i_YjUl5UaQySRr2mE",
+    "nextPageToken": "CAoQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 10
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oLUNmwl7GN-xsoF0mjVJBv6G51I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eIrMbAQSU34"
+            },
+            "snippet": {
+                "publishedAt": "2019-07-15T16:00:12Z",
+                "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+                "title": "Java Tutorial for Beginners",
+                "description": "Java tutorial for beginners - Learn Java, the language behind millions of apps and websites. Want to master Java? Get my ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Programming with Mosh",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-07-15T16:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "KBRZsjzgcNj52UJPTGXOmJjXTgA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RRubcjpTkks"
+            },
+            "snippet": {
+                "publishedAt": "2019-04-18T15:57:44Z",
+                "channelId": "UC_fFL5jgoCOrwAVoM_fBYwA",
+                "title": "Learn Java in 14 Minutes (seriously)",
+                "description": "OFF ANY Springboard Tech Bootcamps with my code ALEXLEE. See if you qualify for the JOB GUARANTEE: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RRubcjpTkks/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RRubcjpTkks/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RRubcjpTkks/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Alex Lee",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-04-18T15:57:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "6fKS9_KC-0hV-YqN2Q3ZExmn-WY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xk4_1vDrzzo"
+            },
+            "snippet": {
+                "publishedAt": "2020-11-09T15:02:50Z",
+                "channelId": "UC4SVo0Ue36XCfOyb5Lh1viQ",
+                "title": "Java Full Course for free ☕",
+                "description": "Java tutorial for beginners full course #Java #tutorial #beginners ⭐️Time Stamps⭐️ #1 (00:00:00) Java tutorial for beginners ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xk4_1vDrzzo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Bro Code",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-11-09T15:02:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TJDG727bH4a8n_XkKuVudvl9wik",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "A74TOX803D0"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-27T13:30:57Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Java Programming for Beginners – Full Course",
+                "description": "Learn the Java programming language in this complete beginner's course. You will learn all the main features of Java (version 17) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/A74TOX803D0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/A74TOX803D0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/A74TOX803D0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "freeCodeCamp.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-27T13:30:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Z6_uigRRI_I_U_c17q9FFbD9kmo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "drQK8ciCAjY"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-11T13:00:15Z",
+                "channelId": "UC42pOSNg804f1wCcj7qL0mA",
+                "title": "Learn Java in One Video - 15-minute Crash Course",
+                "description": "Learn all the essential basics of Java in one video in just 15 minutes. No programming experience required. Complete Java ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/drQK8ciCAjY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/drQK8ciCAjY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/drQK8ciCAjY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding with John",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-11T13:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qS_Elo_ZBIHTg7JS_lc-l6uJS4s",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "BGTx91t8q50"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-08T09:53:31Z",
+                "channelId": "UC59K-uG2A5ogwIrHw4bmlEg",
+                "title": "Java Tutorial for Beginners 2023",
+                "description": "Mastering Java and Spring Boot - Live Course : https://bit.ly/TeluskoJavaLive Business Inquiry : teluskobusiness@gmail.com For ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BGTx91t8q50/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BGTx91t8q50/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BGTx91t8q50/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Telusko",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-08T09:53:31Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "RkRCSI2a7ssfycGFVBO4mtzxpew",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GoXwIVyNvX0"
+            },
+            "snippet": {
+                "publishedAt": "2019-05-21T16:24:34Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Intro to Java Programming - Course for Absolute Beginners",
+                "description": "Java is a general-purpose programming language. Learn how to program in Java in this full tutorial course. This is a complete ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GoXwIVyNvX0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GoXwIVyNvX0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GoXwIVyNvX0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "freeCodeCamp.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-05-21T16:24:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0BebFtHK5-HLba3hVW8mbFchSvw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mAtkPQO1FcA"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-31T11:30:08Z",
+                "channelId": "UCsvqVGtbbyHaMoevxPAq9Fg",
+                "title": "What Is Java? | Java In 5 Minutes | Java Programming | Java Tutorial For Beginners | Simplilearn",
+                "description": "Post Graduate Program In Full Stack Web Development: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mAtkPQO1FcA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mAtkPQO1FcA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mAtkPQO1FcA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Simplilearn",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-31T11:30:08Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LhEkudLiiTCA6TQKTLhzBKTnKVQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NODb4W8MQcI"
+            },
+            "snippet": {
+                "publishedAt": "2023-07-22T07:05:07Z",
+                "channelId": "UCO9B93rKJ83O2toueAlMhdQ",
+                "title": "Уроки Java для начинающих #6— Циклы While и Do While",
+                "description": "Java #УрокиJava #JavaДляНачинающих Мой Telegram канал по Java: https://t.me/+gQKgQXwxiNNhNzky. tags: java, java ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NODb4W8MQcI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NODb4W8MQcI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NODb4W8MQcI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Java Developer",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-07-22T07:05:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jgo3lT1vPGH5QcjsWEcEVW0p7PA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_3ds4qujpxU"
+            },
+            "snippet": {
+                "publishedAt": "2018-11-21T09:01:24Z",
+                "channelId": "UC46vj6mN-6kZm5RYWWqebsg",
+                "title": "Java Full Course for Beginners Part-1",
+                "description": "Topics: ----------- 0:02- Introduction, Installation of Java and Eclipse. 32:57- Creating Java Project in eclipse and basic of class and ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_3ds4qujpxU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_3ds4qujpxU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_3ds4qujpxU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "SDET- QA Automation Techie",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-11-21T09:01:24Z"
+            }
+        }
+    ]
+}
+
+[2023-07-22 08:09:36] [1] [INFO] Request method:	GET
+Request URI:	https://youtube.googleapis.com/youtube/v3/videos?part=statistics&id=eIrMbAQSU34&key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Request params:	<none>
+Query params:	id=eIrMbAQSU34
+				key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sat, 22 Jul 2023 20:09:34 GMT
+Server: scaffolding on HTTPServer2
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "1xd66rwrI2JkaHKsQEz6EQxl-nc",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "5IOX7GUPBdgBlJfx0kSwUVjn0yE",
+            "id": "eIrMbAQSU34",
+            "snippet": {
+                "publishedAt": "2019-07-15T16:00:12Z",
+                "channelId": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+                "title": "Java Tutorial for Beginners",
+                "description": "Java tutorial for beginners - Learn Java, the language behind millions of apps and websites. \n🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C\n👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF\n\n📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw\n\n⭐️ Want to learn more from me? Check out these links:\n\nCourses: https://codewithmosh.com\nTwitter: https://twitter.com/moshhamedani\nFacebook: https://www.facebook.com/programmingwithmosh/\nBlog: http://programmingwithmosh.com \n\nTABLE OF CONTENTS \n\n0:00:00 Introduction \n0:01:46 Installing Java\n0:03:59 Anatomy of a Java Program \n0:08:41 Your First Java Program \n0:15:59 Cheat Sheet \n0:16:29 How Java Code Gets Executed \n0:22:54 Course Structure\n0:25:22 Types\n0:25:57 Variables\n0:29:07 Primitive Types\n0:34:27 Reference Types\n0:39:15 Primitive Types vs Reference Types \n0:43:39 Strings\n0:50:42 Escape Sequences \n0:53:22 Arrays\n0:58:47 Multi-Dimensional Arrays \n1:01:23 Constants\n1:03:15 Arithmetic Expressions \n1:07:18 Order of Operations \n1:08:40 Casting\n1:15:08 The Math Class \n1:19:50 Formatting Numbers \n1:25:40 Reading Input\n1:30:45 Project: Mortgage Calculator \n1:32:55 Solution: Mortgage Calculator \n1:37:14 Types Summary\n1:38:43 Control Flow \n1:39:30 Comparison Operators \n1:41:16 Logical Operators\n1:45:52 If Statements\n1:50:18 Simplifying If Statements \n1:53:47 The Ternary Operator\n1:56:16 Switch Statements\n2:00:07 Exercise: FizzBuzz\n2:06:05 For Loops\n2:09:53 While Loops\n2:14:19 Do...While Loops\n2:15:36 Break and Continue\n2:18:52 For-Each Loop\n2:21:59 Project: Mortgage Calculator \n2:23:27 Solution: Mortgage Calculator \n2:28:28 Control Flow Summary \n2:29:25 Clean Coding\n\n#Programming",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/eIrMbAQSU34/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Programming with Mosh",
+                "tags": [
+                    "java",
+                    "java tutorial",
+                    "java tutorial for beginners",
+                    "learn java",
+                    "java course",
+                    "java 12",
+                    "java 8",
+                    "java 8 tutorial",
+                    "java programming",
+                    "java programming for beginners",
+                    "java training",
+                    "java for beginners",
+                    "java 8 tutorial with examples",
+                    "java 8 course",
+                    "java programming tutorial",
+                    "programming",
+                    "tutorial",
+                    "beginners",
+                    "programming with mosh",
+                    "code with mosh",
+                    "mosh hamedani",
+                    "learn to code"
+                ],
+                "categoryId": "27",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Java Tutorial for Beginners",
+                    "description": "Java tutorial for beginners - Learn Java, the language behind millions of apps and websites. \n🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C\n👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF\n\n📕 Get my FREE #Java cheat sheet: http://bit.ly/2JNlQnw\n\n⭐️ Want to learn more from me? Check out these links:\n\nCourses: https://codewithmosh.com\nTwitter: https://twitter.com/moshhamedani\nFacebook: https://www.facebook.com/programmingwithmosh/\nBlog: http://programmingwithmosh.com \n\nTABLE OF CONTENTS \n\n0:00:00 Introduction \n0:01:46 Installing Java\n0:03:59 Anatomy of a Java Program \n0:08:41 Your First Java Program \n0:15:59 Cheat Sheet \n0:16:29 How Java Code Gets Executed \n0:22:54 Course Structure\n0:25:22 Types\n0:25:57 Variables\n0:29:07 Primitive Types\n0:34:27 Reference Types\n0:39:15 Primitive Types vs Reference Types \n0:43:39 Strings\n0:50:42 Escape Sequences \n0:53:22 Arrays\n0:58:47 Multi-Dimensional Arrays \n1:01:23 Constants\n1:03:15 Arithmetic Expressions \n1:07:18 Order of Operations \n1:08:40 Casting\n1:15:08 The Math Class \n1:19:50 Formatting Numbers \n1:25:40 Reading Input\n1:30:45 Project: Mortgage Calculator \n1:32:55 Solution: Mortgage Calculator \n1:37:14 Types Summary\n1:38:43 Control Flow \n1:39:30 Comparison Operators \n1:41:16 Logical Operators\n1:45:52 If Statements\n1:50:18 Simplifying If Statements \n1:53:47 The Ternary Operator\n1:56:16 Switch Statements\n2:00:07 Exercise: FizzBuzz\n2:06:05 For Loops\n2:09:53 While Loops\n2:14:19 Do...While Loops\n2:15:36 Break and Continue\n2:18:52 For-Each Loop\n2:21:59 Project: Mortgage Calculator \n2:23:27 Solution: Mortgage Calculator \n2:28:28 Control Flow Summary \n2:29:25 Clean Coding\n\n#Programming"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT2H30M48S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": true,
+                "contentRating": {
+                    
+                },
+                "projection": "rectangular"
+            },
+            "statistics": {
+                "viewCount": "9451585",
+                "likeCount": "232694",
+                "favoriteCount": "0",
+                "commentCount": "7800"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}
+
+[2023-07-22 08:09:36] [1] [INFO] Request method:	GET
+Request URI:	https://youtube.googleapis.com/youtube/v3/commentThreads?textFormat=plainText&part=snippet&maxResults=1&videoId=eIrMbAQSU34&key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Request params:	<none>
+Query params:	videoId=eIrMbAQSU34
+				key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sat, 22 Jul 2023 20:09:34 GMT
+Server: scaffolding on HTTPServer2
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "kind": "youtube#commentThreadListResponse",
+    "etag": "UsqHhFO05e__j3yhYXJOvHhaOkU",
+    "nextPageToken": "QURTSl9pMXJPX1AzaENhRFhyY19ndTNNSXVva0ptY19BM3dIMDRfUlRmZElPMTRYdjNKRV9JYkJaYnF0Qkh5bGNDZFRsT2FkQk84MFVrQW9fT05mV09Gc2cwRnhhU09INlE=",
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    },
+    "items": [
+        {
+            "kind": "youtube#commentThread",
+            "etag": "qPALEopSCQc8RxIsCPL2DMBzVAs",
+            "id": "Ugxu55xzII5TQrdupvN4AaABAg",
+            "snippet": {
+                "videoId": "eIrMbAQSU34",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "6QMk6hmsEwWDM7yjmD1ojhpNzTs",
+                    "id": "Ugxu55xzII5TQrdupvN4AaABAg",
+                    "snippet": {
+                        "videoId": "eIrMbAQSU34",
+                        "textDisplay": "🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C\n👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF",
+                        "textOriginal": "🔥 Want to master Java? Get my complete Java mastery bundle: http://bit.ly/2tKoy8C\n👍 Subscribe for more Java tutorials like this: https://goo.gl/6PYaGF",
+                        "authorDisplayName": "Programming with Mosh",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA",
+                        "authorChannelId": {
+                            "value": "UCWv7vMbMWH4-V0ZXdmDpPBA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 329,
+                        "publishedAt": "2022-03-07T23:15:45Z",
+                        "updatedAt": "2022-03-07T23:15:45Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 33,
+                "isPublic": true
+            }
+        }
+    ]
+}
+
+[2023-07-22 08:10:16] [1] [ERROR] TEST [automation-course-demo - testGetYoutubeVideoById] FAILED at [15:10:16 2023-07-22] - The like count for the first search result differ. expected [232688] but found [232694]
+
+org.testng.Assert.fail(Assert.java:110)
+org.testng.Assert.failNotEquals(Assert.java:1577)
+org.testng.Assert.assertEqualsImpl(Assert.java:149)
+org.testng.Assert.assertEquals(Assert.java:131)
+org.testng.Assert.assertEquals(Assert.java:655)
+com.solvd.qa.carina.demo.YoutubeCarinaAPITest.testGetYoutubeVideoById(YoutubeCarinaAPITest.java:48)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

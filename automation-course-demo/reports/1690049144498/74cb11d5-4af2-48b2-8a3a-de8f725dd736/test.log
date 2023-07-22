@@ -1,0 +1,42 @@
+[2023-07-22 06:05:46] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-22 06:05:46] [1] [INFO] TEST [automation-course-demo - testInvalidParamsForVideoMethod] STARTED at [13:05:46 2023-07-22]
+[2023-07-22 06:05:48] [1] [INFO] Request method:	GET
+Request URI:	https://youtube.googleapis.com/youtube/v3/videos?part=statistics&id=12345&key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Request params:	<none>
+Query params:	id=12345
+				key=AIzaSyA38-NrlWas3jQOJHQyKDqmMSffmfeWDAY
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Sat, 22 Jul 2023 18:05:46 GMT
+Server: scaffolding on HTTPServer2
+Cache-Control: private
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "YIUPVpqNjppyCWOZfL-19bLb7uk",
+    "items": [
+        
+    ],
+    "pageInfo": {
+        "totalResults": 0,
+        "resultsPerPage": 0
+    }
+}
+
+[2023-07-22 06:05:48] [1] [INFO] TEST [automation-course-demo - testInvalidParamsForVideoMethod] PASSED at [13:05:48 2023-07-22]
