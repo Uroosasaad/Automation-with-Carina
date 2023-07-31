@@ -15,7 +15,7 @@ public abstract class HomePageBase extends AbstractPage {
 
     public HomePageBase(WebDriver driver) {
         super(driver);
-        setPageOpeningStrategy(PageOpeningStrategy.BY_ELEMENT);
+        setPageOpeningStrategy(PageOpeningStrategy.BY_URL);
     }
 
     public abstract BrandModelsPageBase selectBrand(String brandName);

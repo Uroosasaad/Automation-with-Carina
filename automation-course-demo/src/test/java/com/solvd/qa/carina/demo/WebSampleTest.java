@@ -2,8 +2,12 @@ package com.solvd.qa.carina.demo;
 
 import java.util.List;
 
+import com.solvd.qa.carina.demo.gui.pages.desktop.HomePage;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

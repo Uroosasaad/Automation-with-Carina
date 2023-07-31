@@ -1,0 +1,45 @@
+[2023-07-30 11:05:46] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-30 11:05:46] [1] [INFO] TEST [automation-course-demo - testIfTitlePresentOnHeader] STARTED at [18:05:46 2023-07-30]
+[2023-07-30 11:05:46] [1] [INFO] Starting driver session...
+[2023-07-30 11:05:53] [1] [INFO] Driver session started.
+[2023-07-30 11:05:53] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-07-30 11:05:53] [1] [ERROR] TEST [automation-course-demo - testIfTitlePresentOnHeader] FAILED at [18:05:53 2023-07-30] - Undefined error on open url detected: unknown error: net::ERR_INTERNET_DISCONNECTED
+  (Session info: chrome=115.0.5790.110)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [26b7b10df90773886e40a7efeba9cf07, get {url=http://zebrunner.github.io/carina/}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 115.0.5790.102 (90efd4b0ad6..., userDataDir: C:\Users\iamur\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 26b7b10df90773886e40a7efeba...}
+Session ID: 26b7b10df90773886e40a7efeba9cf07
+
+org.testng.Assert.fail(Assert.java:98)
+com.zebrunner.carina.webdriver.DriverHelper.openURL(DriverHelper.java:166)
+com.zebrunner.carina.webdriver.DriverHelper.openURL(DriverHelper.java:138)
+com.zebrunner.carina.webdriver.DriverHelper.open(DriverHelper.java:129)
+com.solvd.qa.carina.demo.CarinaDocsWebTest.OpenCarinaPage(CarinaDocsWebTest.java:81)
+com.solvd.qa.carina.demo.CarinaDocsWebTest.testIfTitlePresentOnHeader(CarinaDocsWebTest.java:74)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

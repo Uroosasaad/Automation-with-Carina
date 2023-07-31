@@ -1,0 +1,6 @@
+[2023-07-31 05:04:03] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-31 05:04:03] [1] [INFO] TEST [automation-course-demo - testIfHeaderSticksOnTopOfPage] STARTED at [00:04:03 2023-07-31]
+[2023-07-31 05:04:03] [1] [INFO] Starting driver session...
+[2023-07-31 05:04:05] [1] [INFO] Driver session started.
+[2023-07-31 05:04:05] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-07-31 05:04:07] [1] [INFO] TEST [automation-course-demo - testIfHeaderSticksOnTopOfPage] PASSED at [00:04:07 2023-07-31]

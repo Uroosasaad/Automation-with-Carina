@@ -1,0 +1,7 @@
+[2023-07-31 10:14:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-31 10:14:36] [1] [INFO] TEST [automation-course-demo - testIfSomeElementsAreHiddenInNavMenu] STARTED at [17:14:36 2023-07-31]
+[2023-07-31 10:14:36] [1] [INFO] Starting driver session...
+[2023-07-31 10:14:39] [1] [INFO] Driver session started.
+[2023-07-31 10:14:39] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-07-31 10:14:41] [1] [INFO] PASS: element 'NavigationLinkElementList0' is clicked.
+[2023-07-31 10:15:03] [1] [INFO] TEST [automation-course-demo - testIfSomeElementsAreHiddenInNavMenu] PASSED at [17:15:03 2023-07-31]

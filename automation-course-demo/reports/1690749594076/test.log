@@ -1,0 +1,31 @@
+[2023-07-30 08:39:54] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=http://zebrunner.github.io/carina/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2023-07-30 08:39:54] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-30 08:39:56] [1] [INFO] [TestNG] Running:
+  C:\Users\iamur\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-30 08:39:56] [1] [INFO] Set thread-count=1
+[2023-07-30 08:39:56] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-30 08:39:56] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-30 08:40:19] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-30 08:40:19] [1] [INFO] RESULT #1: TEST [automation-course-demo - testIfCarinaIsFirstElementInNavigation] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/bf55eb22-c19e-4a11-821b-fc2c59c6dcc3/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #2: TEST [automation-course-demo - testIfClickOnLinkTakeToCarinaGitHubPage] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/ec26689c-4885-434e-bf65-6b64bb7a430f/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #3: TEST [automation-course-demo - testIfClickingOnLogoRedirectsToSamePage] PASS [screenshots=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/da550450-4994-48e1-ab24-c7a57bb4862a/report.html | log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/da550450-4994-48e1-ab24-c7a57bb4862a/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #4: TEST [automation-course-demo - testIfClickingOnParentRevealsChildElements] PASS [screenshots=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/165a830a-16e1-41a9-9c9e-a2788e1dc20c/report.html | log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/165a830a-16e1-41a9-9c9e-a2788e1dc20c/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #5: TEST [automation-course-demo - testIfGitHubLinkIsPresent] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/f07b62c5-b703-42dc-a5d7-cc7e503f2178/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #6: TEST [automation-course-demo - testIfSearchComponentIsPresentInHeader] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/6cf3f0d4-bd5e-4328-bf06-067a08c7fcd3/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #7: TEST [automation-course-demo - testIfSelectedLinkIsHighlighted] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/764f66fd-d888-4440-91d3-d6fab8c27d3c/test.log]
+[2023-07-30 08:40:19] [1] [INFO] RESULT #8: TEST [automation-course-demo - testIfZebrunnerLogoIsPresent] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690749594076/e50ee8d6-98ff-476e-9df1-301f9df46115/test.log]

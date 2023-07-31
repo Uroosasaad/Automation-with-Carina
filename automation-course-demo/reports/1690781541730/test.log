@@ -1,0 +1,24 @@
+[2023-07-31 05:32:21] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=http://zebrunner.github.io/carina/
+selenium_url=http://localhost:4444/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2023-07-31 05:32:21] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-31 05:32:24] [1] [INFO] [TestNG] Running:
+  C:\Users\iamur\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-07-31 05:32:24] [1] [INFO] Set thread-count=1
+[2023-07-31 05:32:24] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-31 05:32:24] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-31 05:32:29] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-31 05:32:29] [1] [INFO] RESULT #1: TEST [automation-course-demo - testIfNavigationElementsLinkPresent] PASS [log=file://C:\Uroosa\Java\Solvd\Carina\automation-course-demo\.\reports\1690781541730/f9acdd8f-eea8-47cc-94d2-aa8cfd118fd4/test.log]

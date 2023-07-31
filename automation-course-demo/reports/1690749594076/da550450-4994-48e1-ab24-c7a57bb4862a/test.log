@@ -1,0 +1,7 @@
+[2023-07-30 08:40:02] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-30 08:40:02] [1] [INFO] TEST [automation-course-demo - testIfClickingOnLogoRedirectsToSamePage] STARTED at [15:40:02 2023-07-30]
+[2023-07-30 08:40:02] [1] [INFO] Starting driver session...
+[2023-07-30 08:40:03] [1] [INFO] Driver session started.
+[2023-07-30 08:40:03] [1] [INFO] INFO: opening url 'http://zebrunner.github.io/carina/'
+[2023-07-30 08:40:05] [1] [INFO] PASS: element 'ZebrunnerLogo' is clicked.
+[2023-07-30 08:40:05] [1] [INFO] TEST [automation-course-demo - testIfClickingOnLogoRedirectsToSamePage] PASSED at [15:40:05 2023-07-30]
