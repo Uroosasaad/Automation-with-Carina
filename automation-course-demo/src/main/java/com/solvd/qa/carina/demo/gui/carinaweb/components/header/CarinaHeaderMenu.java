@@ -1,7 +1,7 @@
 package com.solvd.qa.carina.demo.gui.carinaweb.components.header;
 
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
-import com.zebrunner.carina.webdriver.gui.AbstractPage;
+
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ public class CarinaHeaderMenu extends AbstractUIObject {
     private ExtendedWebElement ZebrunnerLogo;
 
     @FindBy(xpath = "//span[@class='md-header-nav__topic md-ellipsis'][1]")
-    private ExtendedWebElement CarinaTitle;
+    private ExtendedWebElement CarinaText;
 
     @FindBy(xpath = "//div[@data-md-component='search']")
     private ExtendedWebElement SearchBox;
@@ -50,8 +50,8 @@ public class CarinaHeaderMenu extends AbstractUIObject {
     }
 
 
-    public boolean checkIfCarinaTitlePresentOnHeader() {
-        return CarinaTitle.getText().equalsIgnoreCase("Carina");
+    public boolean checkIfCarinaTextPresentOnHeader() {
+        return CarinaText.getText().equals("Carina");
     }
 
     public boolean CheckSearchComponentOnHeader() {
@@ -62,8 +62,8 @@ public class CarinaHeaderMenu extends AbstractUIObject {
         return CheckSearchBox && CheckSearchIcon && CheckSearchText;
     }
 
-    public String getSearchText() {
-        return SearchText.getAttribute("PlaceHolder");
+    public boolean getSearchText() {
+        return SearchText.getAttribute("PlaceHolder").equals("Search");
     }
 
     public boolean getGitHubLink() {

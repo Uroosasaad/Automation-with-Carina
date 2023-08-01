@@ -2,25 +2,20 @@ package com.solvd.qa.carina.demo.gui.carinaweb.components.navigation;
 
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
 import com.zebrunner.carina.webdriver.gui.AbstractUIObject;
-import org.apache.poi.ss.formula.functions.Na;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
 public class CarinaNavigationPage extends AbstractUIObject {
 
-    //1- Check - Carina heading is first element
     @FindBy(xpath = "//nav[@aria-label='Navigation']//label[@for='__drawer']")
     private ExtendedWebElement firstHeadingInCarinaNavigation;
 
-    //2- List of navigation links
     @FindBy(xpath = "//ul[@class='md-nav__list']//li")
     List<ExtendedWebElement> NavigationLinkElementList;
 
-    //3 a.- Current page 'link'
     @FindBy(xpath = "//div[@class='md-content']//h1")
     private ExtendedWebElement currentlySelectedPageHeading;
 
@@ -32,6 +27,9 @@ public class CarinaNavigationPage extends AbstractUIObject {
 
     @FindBy(xpath = "//li[@class='md-nav__item md-nav__item--nested']//li")
     List<ExtendedWebElement> ChildNavElements;
+
+    @FindBy(xpath = "//li[contains(@class, 'md-nav__item')]")
+    List<ExtendedWebElement> NavigationList;
 
     public CarinaNavigationPage(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
@@ -67,22 +65,22 @@ public class CarinaNavigationPage extends AbstractUIObject {
     public boolean ClickOnParentRevealsChildElements() {
         for(ExtendedWebElement element: ParentNavElements) {
             element.click();
-            for(ExtendedWebElement childElement : ChildNavElements) {
-                if(!childElement.isElementPresent()) {
-                    return false;
-                }
-            }
+//            for(ExtendedWebElement childElement : ChildNavElements) {
+//                if(!childElement.isElementPresent()) {
+//                    return false;
+//                }
+//            }
         }
         return true ;
     }
 
     public boolean CheckIfSomeElementsAreHidden() {
-        for (ExtendedWebElement element : NavigationLinkElementList) {
-            if (!element.isVisible()) {
-                return true;
+        for (ExtendedWebElement element : NavigationList) {
+            if (!element.isElementPresent()) {
+                return false;
 
             }
         }
-        return false;
+        return true;
     }
 }

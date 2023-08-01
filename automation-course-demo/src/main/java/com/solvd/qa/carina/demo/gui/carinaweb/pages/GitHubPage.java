@@ -12,5 +12,4 @@ public class GitHubPage extends AbstractPage {
     public String getCurrentUrl() {
         return getDriver().getCurrentUrl();
     }
-
 }

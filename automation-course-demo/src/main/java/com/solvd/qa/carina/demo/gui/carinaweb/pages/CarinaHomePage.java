@@ -3,27 +3,16 @@ package com.solvd.qa.carina.demo.gui.carinaweb.pages;
 import com.solvd.qa.carina.demo.gui.carinaweb.components.footer.CarinaFooterMenu;
 import com.solvd.qa.carina.demo.gui.carinaweb.components.header.CarinaHeaderMenu;
 import com.solvd.qa.carina.demo.gui.carinaweb.components.navigation.CarinaNavigationPage;
-import com.solvd.qa.carina.demo.gui.carinaweb.pages.commons.CarinaHomePageBase;
-import com.solvd.qa.carina.demo.gui.pages.common.AllBrandsPageBase;
-import com.zebrunner.carina.utils.factory.DeviceType;
-import com.zebrunner.carina.webdriver.CarinaDriver;
-import com.zebrunner.carina.webdriver.TestPhase;
 import com.zebrunner.carina.webdriver.decorator.ExtendedWebElement;
-import com.zebrunner.carina.webdriver.decorator.PageOpeningStrategy;
-import com.zebrunner.carina.webdriver.device.Device;
 import com.zebrunner.carina.webdriver.gui.AbstractPage;
-import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.lang.invoke.MethodHandles;
-import java.lang.reflect.Constructor;
-import java.util.concurrent.ConcurrentHashMap;
 
-//@DeviceType(pageType = DeviceType.Type.DESKTOP, parentClass = CarinaHomePageBase.class)
-public class CarinaHomePage extends CarinaHomePageBase {
+public class CarinaHomePage extends AbstractPage {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
@@ -41,11 +30,6 @@ public class CarinaHomePage extends CarinaHomePageBase {
     public CarinaHomePage(WebDriver driver) {
         super(driver);
     }
-
-//    @Override
-//    public CarinaNavigationPage getNavigation() {
-//        return Navigation;
-//    }
 
     public CarinaHeaderMenu getHeader() {
         return Header;

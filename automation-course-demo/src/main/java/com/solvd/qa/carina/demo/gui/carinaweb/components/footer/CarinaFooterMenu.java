@@ -19,5 +19,4 @@ public class CarinaFooterMenu extends AbstractUIObject {
         CopyRightElementOfFooter.scrollTo();
         return true;
     }
-
 }
